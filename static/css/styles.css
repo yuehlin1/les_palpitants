@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header, footer {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    width: 90%;
+    padding: 20px;
+}
+.poster {
+    width:100%;
+    display: block;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.slogan{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    font-family : 'Arial', sans-serif;
+    font-size:20px;
+    text-align: center;
+}   
+
+
+.image-container {
+    display: flex;            /* Flexbox layout */
+    justify-content: space-between; /* Optional: Adds space between images */
+    gap: 10px;                /* Optional: Adds consistent space between images */
+}

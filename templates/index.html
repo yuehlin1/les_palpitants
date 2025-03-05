@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<img src="{{ url_for('static', filename='img/slogan.jpg') }}" alt="Les palpitants" 
+class="slogan">
+    <h1 style="text-align: center"> Qui sommes nous?</h1>
+
+    <p class="text">L'Ensemble Vocal les Palpitants nait en 2021, en pleine pandémie, alors que les pratiques vocales sont plus que contrariées...
+et pourtant ça palpite, et ça cogite, ça remue sous la terre et ça a grand besoin de se retrouver et de chanter !
+  </p>
+    <img src="{{ url_for('static', filename='img/sur_scene.jpg') }}" alt="Ddescription of image" class="poster">
+
+    <h1 style="text-align: center"> Prochains concerts </h1>
+    Et voici toutes les infos concernant le concert-expo du 𝗱𝗶𝗺𝗮𝗻𝗰𝗵𝗲 𝟭𝟲 𝗺𝗮𝗿𝘀 à 𝗠𝗼𝗻𝘁𝗶𝗴𝗻𝘆-𝗲𝗻-𝗚𝗼𝗵𝗲𝗹𝗹𝗲. 
+    <a style='font-size:20px'href="https://www.facebook.com/events/1319616052576623?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3Anull%7D"> Cliquez moi! </a> pour les détails. 
+  <img src="{{ url_for('static', filename='img/Odysee_poster_16_mars.jpg') }}" alt="Ddescription of image" class="poster" style="width:50%">
+
+
+<h1 style="text-align: center;"> Nous recrutons!  </h1>
+  <img src="{{ url_for('static', filename='img/recruite.jpg') }}" alt="Ddescription of image" class="poster" style="width:50%">
+
+{% endblock %}

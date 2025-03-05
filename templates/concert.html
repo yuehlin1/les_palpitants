@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Concert{% endblock %}
+{% block content %}
+    <h2>Prochain concert</h2>
+
+<img src="{{ url_for('static', filename='img/Odysee_poster_16_mars.jpg') }}" alt="Ddescription of image" class="poster" style="width:50%">
+
+<p>Nous sommes heureux de vous proposer ce concert-expo en partenariat avec le Conservatoire municipal Nelson Mandela.
+</p>
+<div class="image-container">
+    <img src="{{ url_for('static', filename='img/petit_pas/4.jpg') }}" alt="Ddescription of image" class="poster">
+    <img src="{{ url_for('static', filename='img/petit_pas/5.jpg') }}" alt="Ddescription of image" class="poster">
+    <img src="{{ url_for('static', filename='img/petit_pas/6.jpg') }}" alt="Ddescription of image" class="poster">
+    <img src="{{ url_for('static', filename='img/petit_pas/7.jpg') }}" alt="Ddescription of image" class="poster">
+</div>
+<p style="line-height:1.8">
+    Odyssées,<br>
+    C’est une expoctacle… ou peut-être un concersition…?<br>
+    C’est un temps partagé, autour d’images qui racontent et de sons qui ébranlent.<br>
+    C’est un fil tricoté entre des histoires singulières et universelles, c’est un voyage mille fois recommencé depuis que les hommes sont hommes.<br>
+    C’est lui, c’est eux, c’est moi, c’est nous tous, poussés un jour par la vie à embarquer, à traverser, à résister, à accueillir, à partager.<br>
+    C’est la rencontre entre le travail photographique de Laurent Prum auprès des personnes en situation d’exil, et les voix des Palpitants.<br>
+    C’est la mise en résonance d’images, de sourires, de textes d’auteurs, de témoignages, et d’harmonies chorales d’époques diverses.<br>
+    C’est un travail collectif entre les chanteurs des Palpitants, Laurent Prum, photographe, Séverine Ragaigne, metteuse en scène, Adélaïde Stroesser, cheffe de chœur et Mathilde Cardon, formatrice vocale.<br>
+    C’est un format singulier de concert choral, invitant à la réflexion autant qu’à l’émotion.<br>
+    C’est aussi une exposition-photo (« Résister » de Laurent Prum) qui peut se prolonger en amont ou en aval du concert, pour un temps plus long et des moments de rencontres ou d’ateliers.
+</p>
+
+<h2> Concerts passés</h2>
+    <img src="{{ url_for('static', filename='img/Odysee_poster_a_petits_pas.jpg') }}" alt="Ddescription of image" class="poster" style="width:50%">
+    <img src="{{ url_for('static', filename='img/projet_noel.jpg') }}" alt="Ddescription of image" class="poster" style="width:50%">
+    
+
+Informations pratiques :
+Gratuit
+à partir de 11 ans
+Réservation au 03.66.23.11.60 ou par mail à contact@francheconnexion.fr
+L'école Buissonnière - Théâtre Populaire, 19 place Gambetta, Montigny en Gohelle.
+Conservatoire Municipale Nelson Mandela, 48, rue Roger Salengro (Juste en face de l'école Buissonnière) See less
+{% endblock %}
+
